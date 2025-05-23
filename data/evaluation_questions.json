@@ -1,0 +1,43 @@
+[
+    {
+        "id": "q1",
+        "question": "How do I get more Megacredits (M€)?"
+    },
+    {
+        "id": "q2",
+        "question": "What are the requirements for the 'Capital' city tile?"
+    },
+    {
+        "id": "q3",
+        "question": "Explain the 'Asteroid Mining Consortium' project card.",
+        "expected_keywords": ["Jovian", "Titanium production", "VP: 1"]
+    },
+    {
+        "id": "q4",
+        "question": "What happens during the Production Phase?"
+    },
+    {
+        "id": "q5",
+        "question": "What does biomass combustors card do? And what tags does it have?"
+    },
+    {
+        "id": "q6",
+        "question": "How can you rais the oxygen levels?"
+    },
+    {
+        "id": "q7",
+        "question": "How many VP do you get if you win an award and how many other players gets VP and how many?"
+    },
+    {
+        "id": "q8",
+        "question": "Tell me two ways to place a greenary."
+    },
+    {
+        "id": "q9",
+        "question": "How much mega credits do you get during the production phase?"
+    },
+    {
+        "id": "q10",
+        "question": "How much M€ do you start the game with?"
+    }
+]

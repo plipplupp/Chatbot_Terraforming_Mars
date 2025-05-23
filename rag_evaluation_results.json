@@ -1,0 +1,127 @@
+[
+    {
+        "id": "q1",
+        "question": "How do I get more Megacredits (M€)?",
+        "rag_answer": "Your M€ income is the sum of your M€ production and your TR. M€ production is the only production that can be negative, but it may never be lowered below -5.\n",
+        "llm_evaluation": "**Relevans**: 5\n**Korrekthet**: 4\n**Fullständighet**: 2\n**Tydlighet**: 4\n\n**Sammanfattande bedömning:**\n\nChatboten ger ett relevant och tydligt svar som delvis är korrekt.  Det förklarar korrekt hur den totala M€ inkomsten beräknas (produktion + TR).  Dock är det inte komplett. Svaret ignorerar andra viktiga sätt att få M€, såsom kort som ger M€, händelser etc.  Den negativa produktionsgränsen är korrekt men det förklaras inte varför det är så.  Sammantaget är svaret användbart men kunde vara mycket bättre genom att inkludera mer information.\n",
+        "average_score": 3.75,
+        "individual_scores": {
+            "Relevans": 5,
+            "Korrekthet": 4,
+            "Fullständighet": 2,
+            "Tydlighet": 4
+        }
+    },
+    {
+        "id": "q2",
+        "question": "What are the requirements for the 'Capital' city tile?",
+        "rag_answer": "Requires: 4 Ocean\n------\nSpecial Tile\n(Requires 4 ocean tiles. Place this tile.\n",
+        "llm_evaluation": "**Relevans**: 5\n**Korrekthet**: 4\n**Fullständighet**: 2\n**Tydlighet**: 3\n\n**Sammanfattande bedömning:**\n\nChatboten ger ett relevant svar som korrekt identifierar kravet på 4 ocean tiles för Capital-stadskorten.  Dock är svaret väldigt kortfattat och saknar kontext.  Det är inte helt tydligt om \"Place this tile\" är en del av kravet eller en instruktion efter att kravet är uppfyllt.  Brist på tydlighet och fullständighet drar ner betyget.  Svaret är förståeligt, men skulle vinna på mer förklaring.\n",
+        "average_score": 3.5,
+        "individual_scores": {
+            "Relevans": 5,
+            "Korrekthet": 4,
+            "Fullständighet": 2,
+            "Tydlighet": 3
+        }
+    },
+    {
+        "id": "q3",
+        "question": "Explain the 'Asteroid Mining Consortium' project card.",
+        "rag_answer": "Asteroid Mining Consortium\nJovian tag\nCost: 13\nRequires: Titanium production\n------\nDecrease any-Titanium 1\nIncrease Titanium 1\n(Requires that you have titanium production. Decrease any titanium production 1 step and increase your own 1 step.)\nVP: 1\n",
+        "llm_evaluation": "**Relevans**: 5\n**Korrekthet**: 4\n**Fullständighet**: 3\n**Tydlighet**: 4\n\n**Sammanfattande bedömning:**\n\nChatboten ger ett korrekt svar på frågan om Asteroid Mining Consortium-kortet.  Informationen är relevant och presenterad på ett tydligt sätt, om än något sparsamt.  Korrektheten är hög, men det saknas en liten förklaring av hur \"Decrease any-Titanium 1\" fungerar i praktiken (vilket kan vara oklart för nybörjare). Fullständigheten lider lite av detta.  En mer utförlig förklaring av hur kortet interagerar med andra spelare och produktion skulle höja betyget.\n\n\n",
+        "average_score": 4.0,
+        "individual_scores": {
+            "Relevans": 5,
+            "Korrekthet": 4,
+            "Fullständighet": 3,
+            "Tydlighet": 4
+        }
+    },
+    {
+        "id": "q4",
+        "question": "What happens during the Production Phase?",
+        "rag_answer": "During the production phase, all players perform this phase simultaneously. First, all energy is converted into heat. You add resource cubes equal to your production.\n",
+        "llm_evaluation": "**Relevans**: 5\n**Korrekthet**: 3\n**Fullständighet**: 2\n**Tydlighet**: 4\n\n**Sammanfattande bedömning:**\n\nChatboten ger ett relevant svar som delvis är korrekt, men det är inte komplett och saknar vissa viktiga detaljer för att ge en fullständig bild av produktionfasen i Terraforming Mars.  Svaret är tydligt formulerat, men bristen på detaljer drar ner det totala betyget.  Att säga att all energi omvandlas till värme är en förenkling som inte är helt korrekt, eftersom värmeproduktion beror på specifika kort och åtgärder.  Produktionen av resurser är också förenklad, och ignorerar påverkan av olika kort och speciella förmågor.\n\nDet saknas information om hur man faktiskt får resurser baserat på sina produktionsvärden, exempelvis från städer, miner, etc.  För ett mer komplett svar behöver man inkludera detta.\n",
+        "average_score": 3.5,
+        "individual_scores": {
+            "Relevans": 5,
+            "Korrekthet": 3,
+            "Fullständighet": 2,
+            "Tydlighet": 4
+        }
+    },
+    {
+        "id": "q5",
+        "question": "What does biomass combustors card do? And what tags does it have?",
+        "rag_answer": "Biomass Combustors decrease any Plant production 1 step and increase your Energy production 2 steps. It has Power and Building tags.\n",
+        "llm_evaluation": "**Relevans**: 5\n**Korrekthet**: 4\n**Fullständighet**: 3\n**Tydlighet**: 5\n\n**Sammanfattande bedömning:**\n\nChatboten ger ett korrekt svar på frågan om vad Biomass Combustors gör.  Beskrivningen av effekten är tydlig och lätt att förstå.  Dock saknas information om eventuella kostnader eller krav för att använda kortet, vilket påverkar fullständigheten.  Korrektheten får en 4:a då det inte preciseras om det är \"any\" plant production eller endast \"own\" plant production.  Det kan vara en liten feltolkning. Sammantaget är svaret bra och lätt att förstå.\n",
+        "average_score": 4.25,
+        "individual_scores": {
+            "Relevans": 5,
+            "Korrekthet": 4,
+            "Fullständighet": 3,
+            "Tydlighet": 5
+        }
+    },
+    {
+        "id": "q6",
+        "question": "How can you rais the oxygen levels?",
+        "rag_answer": "Regolith Eaters-kortet låter dig ta bort 2 mikrober från kortet för att höja syrenivån 1 steg.\n",
+        "llm_evaluation": "**Relevans**: 5\n**Korrekthet**: 4\n**Fullständighet**: 2\n**Tydlighet**: 4\n\nSammanfattande bedömning: Chatboten ger ett relevant och till största delen korrekt svar på frågan om hur man höjer syrenivåerna i Terraforming Mars.  Svaret är dock inte komplett då det endast nämner ett sätt att öka syrenivån.  Det är tydligt formulerat, men skulle gynnas av att inkludera fler metoder.\n\nFörklaring av betyg:\n\n* **Relevans (5):** Svaret adresserar direkt frågan om hur man höjer syrenivån.\n* **Korrekthet (4):** Regolith Eaters-kortet ökar syrenivån, men det är oklart om det *alltid* tar bort 2 mikrober eller om det varierar beroende på situationen (vilket det kan göra med vissa spelkortskombinationer).  Det är därför inte helt perfekt korrekt.\n* **Fullständighet (2):** Svaret är för kort. Det finns flera andra kort och åtgärder som kan öka syrenivån i Terraforming Mars.  Att endast nämna ett är otillräckligt.\n* **Tydlighet (4):** Svaret är enkelt att förstå, men skulle kunna förbättras genom att ge fler exempel.\n",
+        "average_score": 3.75,
+        "individual_scores": {
+            "Relevans": 5,
+            "Korrekthet": 4,
+            "Fullständighet": 2,
+            "Tydlighet": 4
+        }
+    },
+    {
+        "id": "q7",
+        "question": "How many VP do you get if you win an award and how many other players gets VP and how many?",
+        "rag_answer": "The player who wins an award gets 5 VPs. The second place gets 2 VPs (except in a 2-player game where second place does not give any VPs). If more than one player gets 1st place bonus, no 2nd place is awarded.\n",
+        "llm_evaluation": "**Relevans**: 5\n**Korrekthet**: 4\n**Fullständighet**: 3\n**Tydlighet**: 5\n\n**Sammanfattande bedömning:**\n\nChatboten ger ett relevant och tydligt svar på frågan om VP för prisvinnare i Terraforming Mars.  Svaret är till största delen korrekt, men saknar information om hur många andra spelare får VP vid fler än två spelare (det nämner endast 2:a plats).  Därför är fullständigheten något begränsad.  Det är dock en bra början och lätt att förstå.  Informationen om att ingen andra plats delas ut om flera spelare får första pris är korrekt och värdefullt att inkludera.\n\n**Förklaring av betyg:**\n\n* **Relevans (5):** Svaret svarar direkt på frågan om VP för prisvinnare och andra placeringar.\n* **Korrekthet (4):** Informationen om VP för första och andra plats är korrekt för de flesta scenarion, men det saknas information om fler än två spelare.\n* **Fullständighet (3):** Svaret är bra men inte helt komplett.  Det skulle ha inkluderat information om VP för fler än två spelare.\n* **Tydlighet (5):** Svaret är tydligt formulerat och lätt att förstå.\n",
+        "average_score": 4.25,
+        "individual_scores": {
+            "Relevans": 5,
+            "Korrekthet": 4,
+            "Fullständighet": 3,
+            "Tydlighet": 5
+        }
+    },
+    {
+        "id": "q8",
+        "question": "Tell me two ways to place a greenary.",
+        "rag_answer": "You place a greenery tile with an owner marker next to another tile that you own if possible. If you have no tiles or no area next to them, you may place it on any available area.\n",
+        "llm_evaluation": "**Relevans**: 5\n**Korrekthet**: 3\n**Fullständighet**: 2\n**Tydlighet**: 4\n\n**Sammanfattande bedömning:**\n\nChatboten ger ett relevant svar som delvis är korrekt, men saknar fullständighet och precision. Svaret är tydligt skrivet men innehåller en förenkling av reglerna som inte helt stämmer överens med spelets komplexitet.  Att placera en grönområdesplatta är inte bara beroende av om man äger angränsande plattor utan även av andra faktorer som tillgängliga utrymmen och  om det finns andra spelare som kan ha prioritet.  Svaret bör specificera att man försöker placera bredvid sina egna plattor *om möjligt*, men att det inte alltid är ett krav.\n\nSpecifikt är påståendet \"If you have no tiles or no area next to them, you may place it on any available area\" en överförenkling. Det finns begränsningar på var man kan placera plattor utöver ägande av angränsande plattor.\n",
+        "average_score": 3.5,
+        "individual_scores": {
+            "Relevans": 5,
+            "Korrekthet": 3,
+            "Fullständighet": 2,
+            "Tydlighet": 4
+        }
+    },
+    {
+        "id": "q9",
+        "question": "How much mega credits do you get during the production phase?",
+        "rag_answer": "Your M€ income is the sum of your M€ production and your TR.\n",
+        "llm_evaluation": "**Relevans**: 5\n**Korrekthet**: 4\n**Fullständighet**: 3\n**Tydlighet**: 4\n\n**Sammanfattande bedömning:**\n\nChatboten ger ett korrekt svar som direkt adresserar frågan om MegaCredit-inkomst under produktionsfasen.  Formeln \"M€ income is the sum of your M€ production and your TR\" är korrekt, även om den är lite kryptisk för någon som inte redan är bekant med spelets förkortningar (M€ för MegaCredits och TR för temperature rating).  Svaret saknar dock lite förklarande text för att göra det helt tillfredsställande för en nybörjare.  Det skulle vara bra med en kort förklaring av vad \"M€ production\" faktiskt innebär (summan av alla källor till M€ produktion på spelarens kort).  Därför får fullständigheten en 3:a. Tydligheten är bra, men kunde förbättras med en mer utförlig förklaring.\n\n\n",
+        "average_score": 4.0,
+        "individual_scores": {
+            "Relevans": 5,
+            "Korrekthet": 4,
+            "Fullständighet": 3,
+            "Tydlighet": 4
+        }
+    },
+    {
+        "id": "q10",
+        "question": "How much M€ do you start the game with?",
+        "rag_answer": "I am sorry, but that information is not in the context you provided.\n",
+        "llm_evaluation": "**Relevans**: 1\n**Korrekthet**: 0 (ej tillämpligt)\n**Fullständighet**: 1\n**Tydlighet**: 5\n\nSammanfattande bedömning: Chatboten misslyckades helt med att besvara frågan. Svaret är irrelevant och oanvändbart.  Även om det är kort och tydligt (därav 5 på tydlighet) så saknar det helt information och ger inget värde.  Korrektheten är ej tillämplig då inget korrekt svar gavs.\n\n",
+        "average_score": null,
+        "individual_scores": null
+    }
+]

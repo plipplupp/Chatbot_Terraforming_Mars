@@ -1,0 +1,12 @@
+# Ignorera virtuella miljöer
+.venv/
+
+# Ignorera miljövariabler (känslig information)
+.env
+
+# Ignorera Python-specifika filer
+__pycache__/
+*.pyc
+
+# Ignorera Streamlit-specifika cachade filer
+.streamlit/

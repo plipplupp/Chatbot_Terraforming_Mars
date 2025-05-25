@@ -1,3 +1,8 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
 # 1. IMPORTER HÄR. Dessa anropar INTE Streamlit-funktioner direkt.
 import streamlit as st # Denna måste vara här!
 import os

@@ -21,7 +21,8 @@ st.set_page_config(page_title="Terraforming Mars Chatbot")
 load_dotenv()
 genai.configure(api_key=os.getenv("API_KEY"))
 
-CHROMA_DB_PATH = r"C:\Users\Dator\Documents\Data Science\07_Deep_Learning\Kunskapskontroll 2\chroma_db"
+# CHROMA_DB_PATH = r"C:\Users\Dator\Documents\Data Science\07_Deep_Learning\Kunskapskontroll 2\chroma_db"
+CHROMA_DB_PATH = "./chroma_db" #För att köra på steamlit cloud
 os.makedirs(CHROMA_DB_PATH, exist_ok=True) 
 
 GENERATION_MODEL_NAME = 'gemini-2.0-flash'

@@ -1,3 +1,4 @@
+# Kommentera bort om man vill köra lokat, detta är till för att streamlit-appen ska fungera
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')

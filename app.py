@@ -34,7 +34,7 @@ generation_model = get_generative_model()
 # --- 1. Load ChromaDB (cached with Streamlit) ---
 @st.cache_resource
 def load_chroma_db_collection():
-    st.info("Loading ChromaDB database...")
+    # st.info("Loading ChromaDB database...")
     client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
     collection_name = "terraforming_mars_rag"
     

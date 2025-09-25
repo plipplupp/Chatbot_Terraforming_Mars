@@ -115,8 +115,12 @@ st.title("🤖 Terraforming Mars RAG Chatbot")
 st.caption("This Retrieval Augmented Generation chatbot retrieves information from game documents to give accurate answers.")
 
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "content": "Hello! I am your Terraforming Mars bot. What can I help you with?"}]
-
+    st.session_state["messages"] = [
+        {
+            "role": "assistant",
+            "content": "Hello! I am your Terraforming Mars bot. What can I help you with? <br><br> <span style='color:lightgray; font-style:italic;'>Example questions:<br>Tell me about the card Geothermal power.<br>How to claim a milestone?</span>"
+        }
+    ]
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
 

@@ -118,7 +118,7 @@ if "messages" not in st.session_state:
     st.session_state["messages"] = [
         {
             "role": "assistant",
-            "content": "Hello! I am your Terraforming Mars bot. What can I help you with? <br><br> <span style='color:rgb(107, 114, 128); font-style:italic;'>Example questions:<br>Tell me about the card Geothermal power.<br>How to claim a milestone?</span>"
+            "content": "Hello! I am your Terraforming Mars bot. What can I help you with? <br> <span style='color:rgb(107, 114, 128); font-style:italic;'>Example questions:<br>Tell me about the card Geothermal power.<br>How to claim a milestone?<br>How to claim a milestone?<br>How do I get victory points?</span>"
         }
     ]
 

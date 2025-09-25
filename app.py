@@ -126,12 +126,16 @@ for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"], unsafe_allow_html=True)
 
+# Hantering av nya användarfrågor och assistent svar
 if prompt := st.chat_input("Ask me a question..."): # Change prompt text here
     st.session_state.messages.append({"role": "user", "content": prompt})
-    st.chat_message("user").write(prompt)
+    
+    # Skriv ut användarens meddelande med markdown
+    st.chat_message("user").markdown(prompt, unsafe_allow_html=True)
 
     with st.spinner("Thinking..."): # Spinner text
         rag_response = ask_rag_chatbot(prompt)
     
     st.session_state.messages.append({"role": "assistant", "content": rag_response})
-    st.chat_message("assistant").write(rag_response)
+    
+    st.chat_message("assistant").markdown(rag_response, unsafe_allow_html=True)

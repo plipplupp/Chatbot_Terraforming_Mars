@@ -121,8 +121,10 @@ if "messages" not in st.session_state:
             "content": "Hello! I am your Terraforming Mars bot. What can I help you with? <br><br> <span style='color:lightgray; font-style:italic;'>Example questions:<br>Tell me about the card Geothermal power.<br>How to claim a milestone?</span>"
         }
     ]
+
 for msg in st.session_state.messages:
-    st.chat_message(msg["role"]).write(msg["content"])
+    with st.chat_message(msg["role"]):
+        st.markdown(msg["content"], unsafe_allow_html=True)
 
 if prompt := st.chat_input("Ask me a question..."): # Change prompt text here
     st.session_state.messages.append({"role": "user", "content": prompt})
